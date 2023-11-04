@@ -1,0 +1,174 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #9DB2BF;
+    color: #213555;
+}
+#sp{
+    color: white;
+}
+p{
+    color: #0B2447;
+}
+
+.intro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.intro h1 {
+    font-size: 30px;
+}
+
+/* About section styles */
+#about {
+    padding: 30px;
+    text-align: center;
+    background-color: #9DB2BF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects section styles */
+#projects {
+    padding: 50px 0;
+    text-align:center;
+    background-color: #9DB2BF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#projects .project{
+    text-align: justify;
+}
+
+
+/* Contact section styles */
+#contact {
+    padding: 30px;
+    text-align: center;
+    background-color: #9DB2BF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#contact p{
+    color: #213555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+ul li a {
+    color: #526D82;
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #27374D;
+    color: #9DB2BF;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Add this CSS to your existing styles.css file */
+
+/* Header styles */
+header {
+    background-color: #27374D;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.intro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    transition: transform 0.3s; /* Add a smooth scale effect on hover */
+}
+
+.intro h1 {
+    font-size: 30px;
+    transition: color 0.3s; 
+}
+.intro p {
+    font-size: 16px;
+}
+.intro h1:hover {
+    color: #27374D; /* Change text color on hover */
+}
+
+header:hover {
+    background-color: #526D82; /* Change header background on hover */
+}
+
+.intro img:hover {
+    transform: scale(1.1); /* Enlarge the profile picture on hover */
+}
+
+/* Projects section styles */
+.project {
+    margin: 20px;
+    padding: 20px;
+    background-color: #9DB2BF;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.3s; /* Add a smooth scale effect on hover */
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+    transition: filter 0.3s; /* Add a smooth grayscale effect on hover */
+    height: 300px;
+    width: 600px;
+    float: left;
+    padding-right: 20px;
+}
+.project h3 {
+    font-size: 24px;
+    transition: color 0.3s; /* Smooth text color transition on hover */
+}
+.project p {
+    font-size: 16px;
+}
+
+#contact ul{
+    text-align: justify;
+}
+#mm{
+    padding-left: 500px;
+}
+
+
+
+
+.project:hover {
+    transform: scale(1.05); /* Enlarge the project on hover */
+}
+
+.project img:hover {
+    filter: grayscale(100%); /* Convert project image to grayscale on hover */
+}
+.project h3:hover {
+    color: black; /* Change text color on hover */
+}
+#footers{
+    color: #9DB2BF;
+}
